@@ -40,7 +40,7 @@ body {
 
 .slide-area {
   background: cadetblue;
-  height: 400px;
+  height: 300px;
 }
 
 .collapse li:hover {
@@ -49,4 +49,18 @@ body {
 
 #collapseMenu {
   padding: 0;
+}
+
+.product-head h2 {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.product-wrapper {
+}
+
+.product {
+  border: solid 1px crimson;
+  display: block;
+  height: 150px;
 }
