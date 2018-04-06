@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -7,26 +8,26 @@ class Navbar extends Component {
         <div className='container-fluid'>
           <div className='row navbar'>
             <div className='col'>
-              <a className='navbar-brand' href='/'>
+              <Link className='navbar-brand' to='/'>
                 <img src='./img/logo.png' className='d-inline-block align-top' alt='logo' />
-              </a>
+              </Link>
             </div>
             <div className='col navigation'>
               <ul className='nav justify-content-end'>
                 <li className='nav-item'>
-                  <a className='nav-link active' href='/'>Home</a>
+                  <Link className='nav-link active' to='/'>Home</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='/#produk'>Produk</a>
+                  <Link className='nav-link' to='/#produk'>Produk</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='/portofolio'>Portofolio</a>
+                  <Link className='nav-link' to='/portofolio'>Portofolio</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='/kontak'>Kontak</a>
+                  <Link className='nav-link' to='/kontak'>Kontak</Link>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link' href='/faq'>FAQ</a>
+                  <Link className='nav-link' to='/faq'>FAQ</Link>
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link icon-bars'>
@@ -40,19 +41,19 @@ class Navbar extends Component {
         <div class="collapse col" id="collapseMenu">
           <ul class="nav flex-column">
             <li className='nav-item'>
-              <a className='nav-link active' href='/'>Home</a>
+              <Link className='nav-link active' to='/'>Home</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/#produk'>Produk</a>
+              <Link className='nav-link' to='/#produk'>Produk</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/portofolio'>Portofolio</a>
+              <Link className='nav-link' to='/portofolio'>Portofolio</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/kontak'>Kontak</a>
+              <Link className='nav-link' to='/kontak'>Kontak</Link>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='/faq'>FAQ</a>
+              <Link className='nav-link' to='/faq'>FAQ</Link>
             </li>
           </ul>
         </div>

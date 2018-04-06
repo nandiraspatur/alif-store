@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { FaFacebookOfficial, FaInstagram, FaTwitterSquare } from 'react-icons/lib/fa';
 
 class Footer extends Component {
   render() {
@@ -21,20 +23,31 @@ class Footer extends Component {
           </div>
           <div className='col footer-right'>
             <ul className='nav justify-content-end'>
+            <li className='nav-item'>
+                  <Link className='nav-link active' to='/'>Home</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link' to='/#produk'>Produk</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link' to='/portofolio'>Portofolio</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link' to='/kontak'>Kontak</Link>
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link' to='/faq'>FAQ</Link>
+                </li>
+            </ul>
+            <ul className='nav justify-content-end social'>
               <li className='nav-item'>
-                <a className='nav-link active' href='/'>Home</a>
+                <a className='nav-link social-link' href='/'><FaFacebookOfficial size={40} /></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/#produk'>Produk</a>
+                <a className='nav-link social-link' href='/#produk'><FaInstagram size={40} /></a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='/portofolio'>Portofolio</a>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='/kontak'>Kontak</a>
-              </li>
-              <li className='nav-item'>
-                <a className='nav-link' href='/faq'>FAQ</a>
+                <a className='nav-link social-link' href='/portofolio'><FaTwitterSquare size={40} /></a>
               </li>
             </ul>
           </div>

@@ -80,3 +80,12 @@ body {
   color: rgb(185, 185, 185);
   margin-top: 10px;
 }
+
+.social {
+  margin-top: 15px;
+  margin-right: .7rem;
+}
+
+.social-link {
+  padding: 0 .3rem !important;
+}
