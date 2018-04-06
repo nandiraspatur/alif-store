@@ -10,45 +10,45 @@ class ProductList extends Component {
         <div className='col-12 product-wrapper'>
           <div className='container'>
             <div className='row'>
-              <div className='col product'>
-              a
+              <div className='col-6 col-md-3 product'>
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
-              <div className='col product'>
-              b
+              <div className='col-6 col-md-3 product'>
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
-              <div className='col product'>            
-              c
+              <div className='col-6 col-md-3 product'>            
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
-              <div className='col product'>            
-              d
-              </div>
-            </div>
-            <div className='row'>
-              <div className='col product'>
-              a
-              </div>
-              <div className='col product'>
-              b
-              </div>
-              <div className='col product'>            
-              c
-              </div>
-              <div className='col product'>            
-              d
+              <div className='col-6 col-md-3 product'>            
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
             </div>
             <div className='row'>
-              <div className='col product'>
-              a
+              <div className='col-6 col-md-3 product'>
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
-              <div className='col product'>
-              b
+              <div className='col-6 col-md-3 product'>
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
-              <div className='col product'>            
-              c
+              <div className='col-6 col-md-3 product'>            
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
-              <div className='col product'>            
-              d
+              <div className='col-6 col-md-3 product'>            
+                <img className='product-image' src='./img/sample.png' alt='sample' />
+              </div>
+            </div>
+            <div className='row'>
+              <div className='col-6 col-md-3 product'>
+                <img className='product-image' src='./img/sample.png' alt='sample' />
+              </div>
+              <div className='col-6 col-md-3 product'>
+                <img className='product-image' src='./img/sample.png' alt='sample' />
+              </div>
+              <div className='col-6 col-md-3 product'>            
+                <img className='product-image' src='./img/sample.png' alt='sample' />
+              </div>
+              <div className='col-6 col-md-3 product'>            
+                <img className='product-image' src='./img/sample.png' alt='sample' />
               </div>
             </div>
           </div>

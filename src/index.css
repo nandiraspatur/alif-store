@@ -56,11 +56,27 @@ body {
   margin: 30px 0 30px 0;
 }
 
-.product-wrapper {
+.product {
+  /* border: solid 1px crimson; */
+  display: block;
+  padding: 0 !important;
 }
 
-.product {
-  border: solid 1px crimson;
-  display: block;
-  height: 150px;
+.product-image {
+  width: 100%;
+}
+
+.product-image:hover {
+  border: 5px solid blue;
+  transition-duration: 500ms;
+}
+
+.footer {
+  background: rgb(29, 27, 27);
+  padding: 1.5rem 1rem;
+}
+
+.footer-info {
+  color: rgb(185, 185, 185);
+  margin-top: 10px;
 }
