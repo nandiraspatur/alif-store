@@ -38,8 +38,8 @@ class Navbar extends Component {
             </div>
           </div>
         </div>
-        <div class="collapse col" id="collapseMenu">
-          <ul class="nav flex-column">
+        <div className="collapse col" id="collapseMenu">
+          <ul className="nav flex-column">
             <li className='nav-item'>
               <Link className='nav-link active' to='/'>Home</Link>
             </li>

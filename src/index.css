@@ -41,6 +41,11 @@ body {
 .slide-area {
   background: cadetblue;
   height: 300px;
+  overflow: hidden;
+}
+
+.slide-area img {
+  width: 100%;
 }
 
 .collapse li:hover {
